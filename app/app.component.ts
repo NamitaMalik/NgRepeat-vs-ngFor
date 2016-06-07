@@ -19,7 +19,7 @@ import {Component} from 'angular2/core';
             <th>Index</th>
             <th>To Do Item</th>
         </tr>
-        <tr *ngFor="#toDo of toDoList, #i=index, #last=last, #odd=odd, #even=even"  [ngClass]="{'odd-color':odd, 'even-color':even, 'last-color' : last }">
+        <tr *ngFor="let toDo of toDoList, let i=index, let last=last, let odd=odd, let even=even"  [ngClass]="{'odd-color':odd, 'even-color':even, 'last-color' : last }">
             <td>{{i}}</td>
             <td>{{toDo}}</td>
         </tr>
