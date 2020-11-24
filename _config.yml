@@ -1,0 +1,8 @@
+title: NgRepeat vs *ngFor
+description: This blog demonstrates difference between NgRepeat and *ngFor.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-hacker
+
+gems:
+  - jekyll-mentions
